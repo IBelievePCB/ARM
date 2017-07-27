@@ -1,0 +1,9 @@
+编译环境的安装：
+
+因为无法执行的原因还安装了lsb-core  
+
+
+文件： timeconst.pl 第373行 变更如下
+
+#	if (!defined(@val)) {
+    if (!(@val)) {
